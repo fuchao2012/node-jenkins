@@ -2,9 +2,9 @@
 
 这是一个 Node [Jenkins](http://jenkins-ci.org/) 客户端.
 
-## 文档 TOC
+## API 接口文档列表
 
- * jenkins: [初始化](#init), [信息](#info)
+ * jenkins: [init](#init), [info](#info)
  * build: [get](#build-get), [log](#build-log), [logStream](#build-log-stream), [stop](#build-stop)
  * job: [build](#job-build), [get config](#job-config-get), [set config](#job-config-set), [copy](#job-config-copy), [create](#job-create), [destroy](#job-destroy), [disable](#job-disable), [enable](#job-enable), [exists](#job-exists), [get](#job-get), [list](#job-list)
  * node: [get config](#node-config-get), [create](#node-create), [destroy](#node-destroy), [disconnect](#node-disconnect), [disable](#node-disable), [enable](#node-enable), [exists](#node-exists), [get](#node-get), [list](#node-list)
